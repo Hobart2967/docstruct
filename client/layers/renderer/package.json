@@ -1,0 +1,30 @@
+{
+  "name": "@Hobart2967/docstruct-shell",
+  "version": "1.0.0",
+  "description": "Your private documents manager",
+  "main": "dist/main/index.cjs",
+  "repository": "git@github.com:Hobart2967/docstruct",
+  "author": "Hobart2967",
+  "license": "MIT",
+  "scripts": {
+    "build": "vite"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.22.5",
+    "@types/electron": "^1.6.10",
+    "@types/pouchdb": "^6.4.0",
+    "electron": "^25.2.0",
+    "sass": "^1.63.4",
+    "vite": "^4.3.9",
+    "vite-plugin-solid": "^2.7.0",
+    "vite-plugin-static-copy": "^0.16.0"
+  },
+  "dependencies": {
+    "events": "^3.3.0",
+    "inversify": "^6.0.1",
+    "pouchdb": "^8.0.1",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.1",
+    "solid-js": "^1.7.6"
+  }
+}

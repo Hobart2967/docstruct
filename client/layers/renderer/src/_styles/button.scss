@@ -1,0 +1,13 @@
+button {
+  color: var(--theme-control-foreground);
+  border: none;
+  background: none;
+  box-sizing: border-box;
+  height: 100%;
+  display: block;
+  line-height: 1.8;
+
+  &:hover {
+    background: var(--theme-control-background--hover);
+  }
+}

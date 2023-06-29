@@ -1,0 +1,28 @@
+@import "./_styles/builtin";
+
+:root {
+  --theme-accent: rgb(255, 255, 0);
+  --theme-accent--bright: rgba(255, 255, 0, 0.5);
+  --theme-accent--brighter: rgba(255, 255, 0, 0.25);
+  --theme-accent--brightest: rgba(255, 255, 0, 0.1);
+  --theme-default-foreground: rgb(196, 196, 196);
+
+
+  --theme-control-border: rgb(221, 221, 221, 0.3);
+  --theme-control-foreground: var(--theme-default-foreground);
+  --theme-control-background: transparent;
+  --theme-control-background--hover: var(--theme-accent--brighter);
+
+  --theme-ribbon__header-foreground: #fff;
+  --theme-window-background: rgb(49, 44, 42);
+  --theme-ribbon-background: rgba(245, 245, 245, 0.1);
+  --theme-ribbon-border: var(--theme-control-border);
+}
+
+body {
+  color: var(--theme-default-foreground);
+  background-color: var(--theme-window-background);
+  margin: 0;
+
+  font-size: 12px;
+}

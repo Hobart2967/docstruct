@@ -1,0 +1,14 @@
+{
+  "name": "@Hobart2967/docstruct",
+  "version": "1.0.0",
+  "description": "Your private documents manager",
+  "main": "dist/main/index.cjs",
+  "repository": "git@github.com:Hobart2967/docstruct",
+  "author": "Hobart2967",
+  "license": "MIT",
+  "devDependencies": {
+    "@electron/remote": "^2.0.10",
+    "electron": "^25.2.0",
+    "pdf-extract": "^1.0.11"
+  }
+}
